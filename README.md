@@ -24,3 +24,9 @@ Cette commande indique à git qu'il faut surveiller ce fichier si il subit des c
 Repo git commit [-a -m] "Entrez votre message"
 ```
 Cette commande est l'une des plus importante elle permet à git de créer une version unique afin que le développeur puisse un jour si il le veut revenir à cette version du code, il est aussi important de définir un message avec l'option "-m". Si il faut à chaque fois de faire un commit traquer un fichier avec "git add" il est possible au moment du commit de fusioner les deux commandes afin de gagner en ajoutant les options "-a -m".
+
+## git push
+```
+Repo git push origin master
+```
+Cette commande permet d'envoyer vos commits dans votre remote en l'occurence si votre code est sous GitHub(origin) dans votre branche master qui est votre branche principale la ou est déposé votre code.
