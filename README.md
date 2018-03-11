@@ -13,6 +13,12 @@ Repo git status
 ```
 Cette commande va nous renvoyer l'état de nos fichiers c'est-à-dire si un ou plusieurs fichiers a été crées, subis des modifications etc.. qu'il faudra si changements il y a commit afin de créer une version unique des changements.
 
+## git log
+```
+Repo git log
+```
+Cette commande permet d'afficher l'historique des commits et de voir l'auteur, le message, la date, la clé SHA..
+
 ## git add
 ```
 Repo git add nomDuFichier
