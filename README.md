@@ -33,9 +33,15 @@ Cette commande est l'une des plus importante elle permet à git de créer une ve
 
 ## git push
 ```
-Repo git push origin master
+Repo git push origin [name of your branche]
 ```
 Cette commande permet d'envoyer vos commits dans votre remote en l'occurence si votre code est sous GitHub(origin) dans votre branche master qui est votre branche principale la ou est déposé votre code.
+
+## git pull
+```
+Repo git pull origin [name of your branche]
+```
+Cette commande indique à git de récupérer le code présent dans votre remote(github) sur une branche est de l'insérer dans votre repository local de ce fait vous pouvez récuperer le travail d'un autre développeur sur votre machine.
 
 ## git branch
 ```
