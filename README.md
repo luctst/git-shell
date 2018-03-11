@@ -60,3 +60,15 @@ Cette commande permet de se placer dans la branche indiquée.
 Repo git merge orgin [nom de la branche]
 ```
 Cette commande permet de mettre à jour le code de notre branche actuelle en fonction de celle indiquée.
+
+## git blame
+```
+Repo git blame nomDuFichier
+```
+Cette commande permet de retrouver qui a modifié une ligne précise dans le fichier indiqué avec différentes informations comme l'auteur, l'heure le SHA correspondant etc..
+
+## git show
+```
+Repo git show SHA
+```
+Cette commande permet avec un SHA correspondant de retouver le commit correspondant au SHA indiqué à combiner avec git blame qui permet de mieux visualiser le fichier et ses modifications.
