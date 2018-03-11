@@ -36,3 +36,15 @@ Cette commande est l'une des plus importante elle permet à git de créer une ve
 Repo git push origin master
 ```
 Cette commande permet d'envoyer vos commits dans votre remote en l'occurence si votre code est sous GitHub(origin) dans votre branche master qui est votre branche principale la ou est déposé votre code.
+
+## git branch
+```
+Repo git branch [nom de la branche]
+```
+Cette commande permet soit de voir les branches crées dans notre repo ou de créer une nouvelle branche simplement en ajoutant le nom de celle-ci aprés la commande.
+
+## git checkout
+```
+Repo git checkout [nom de la branche]
+```
+Cette commande permet de se placer dans la branche indiquée.
