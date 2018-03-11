@@ -54,3 +54,9 @@ Cette commande permet soit de voir les branches crées dans notre repo ou de cr�
 Repo git checkout [nom de la branche]
 ```
 Cette commande permet de se placer dans la branche indiquée.
+
+## git merge
+```
+Repo git merge orgin [nom de la branche]
+```
+Cette commande permet de mettre à jour le code de notre branche actuelle en fonction de celle indiquée.
