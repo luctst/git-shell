@@ -55,6 +55,12 @@ Repo git checkout [nom de la branche]
 ```
 Cette commande permet de se placer dans la branche indiquée.
 
+## git fetch
+```
+Repo git fetch [option]  remotename
+```
+La commande git fetch va récupérer toutes les données des commits effectués sur la branche courante qui n'existent pas encore dans votre version en local.
+
 ## git merge
 ```
 Repo git merge orgin [nom de la branche]
