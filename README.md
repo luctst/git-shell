@@ -78,3 +78,9 @@ Cette commande permet de retrouver qui a modifié une ligne précise dans le fic
 Repo git show SHA
 ```
 Cette commande permet avec un SHA correspondant de retouver le commit correspondant au SHA indiqué à combiner avec git blame qui permet de mieux visualiser le fichier et ses modifications.
+
+## git diff
+````
+Repo git diff [branche-1]..[branche-2]
+````
+Cette commande permet de voir les différences entre la branche 1 et la branche 2 ne pas oublier les deux points entre les deux branches.
