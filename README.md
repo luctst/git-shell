@@ -1,6 +1,12 @@
 # Création d'un repo pour découvrir la ligne de command git
 Dans ce fichier on va découvrir comment utiliser git pour versioner son code, travailler à plusieurs etc... On va également utiliser le remote [GitHub](https://github.com) qui permet de stocker son repository déclarer des issues..
 
+## git config
+```
+git congif [options]
+```
+Cette commande permet de voir divers informations à propos de git.
+
 ## git init
 ```
 Repo git init
