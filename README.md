@@ -103,3 +103,21 @@ Repo git revert [Sha du commit]
 ```
 Cette commande permet d'inverser le commit qui correspond au SHA indiqué
 
+## git stash
+```
+Repo git stash [options]
+```
+Cette commande permet de mettre les modifications en cours qui n'ont pas étés commit dans un stash CAD de coté pour que vous puissiez travailler sur autre chose
+
+## git stash list
+```
+Repo git stash list
+```
+Cette commande permet de lister tous les stashs en cours donc tout le code qui est mit de côté en autre
+
+## git stash pop
+```
+Repo git stash pop [options]
+```
+Cette commande permet de sortir le code du stash le plus récent donc vous récuperez votre code mit de côté
+
