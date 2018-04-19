@@ -91,8 +91,15 @@ Repo git diff [branche-1]..[branche-2]
 ````
 Cette commande permet de voir les différences entre la branche 1 et la branche 2 ne pas oublier les deux points entre les deux branches.
 
+## git reset
+````
+Repo git reset [options]  HEAD~[nombre de commits]
+````
+Cette commande permet d'annuler un commit sur la branche dans laquelle on est situé
+
 ## git revert
-````
-Repo git revert [branche]~[commits] [code SHA commit]
-````
-Cette commande permet d'annuler un commit qui n'a pas été push, vous pouvez utiliser git revert avec le nom de la branche plus le nombre de commit que vous voulez annuler (premiére option), ou entrer simplement le code SHA du commit a annulé.
+```
+Repo git revert [Sha du commit]
+```
+Cette commande permet d'inverser le commit qui correspond au SHA indiqué
+
