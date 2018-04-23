@@ -121,3 +121,8 @@ Repo git stash pop [options]
 ```
 Cette commande permet de sortir le code du stash le plus récent donc vous récuperez votre code mit de côté
 
+## git remote
+```
+Repo git remote [options]
+```
+Cette commande permet de lister et d'ajouter des dépots distants (copie d'un dépot sur internet)
