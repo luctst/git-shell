@@ -1,5 +1,6 @@
-# Création d'un repo pour découvrir la ligne de command git
-Apprenez les lignes de commande Git.
+# Learn Git.
+> Before trying to learn how to use the CLI with git it's important for you to correctly understand how git works, you can read this article to have a good comprehension of git.
+[What is version control and what is git ?](https://www.atlassian.com/git/tutorials/what-is-version-control)
 
 ## git config
 ```
